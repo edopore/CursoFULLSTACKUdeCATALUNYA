@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+.form_tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
