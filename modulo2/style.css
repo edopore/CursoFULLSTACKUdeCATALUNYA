@@ -1,15 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+}
+.header{
     text-align: center;
 }
-body{
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer{
     text-align: center;
 }
-
+.main_section{
+    text-align: center;
+    width: 1024px;
+}
+.task_item{
+    padding: 15px;
+    list-style: none;
+}
 .form_tasks{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 15px;
     justify-content: center;
+}
+.dlt-btn{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.dlt-btn:hover{
+    cursor: pointer;
+}
+#task{
+    padding: 10px;
+    border-radius: 5px;
+}
+#task_btn{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
